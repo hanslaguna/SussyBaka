@@ -33,7 +33,12 @@
   }
 
 
-
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .nav-img-logo{
     width: 50px;
     height: auto;
