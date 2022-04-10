@@ -3,7 +3,7 @@
 	position: fixed;
 	width: 100%;
 	height: 100vh;
-	background: #FFF6EE url('https://i.pinimg.com/originals/bb/d8/a2/bbd8a2470f1cf5587bbbeb6af3672fc5.gif') no-repeat center;
+	background: #FFF6EE url('https://c.tenor.com/cXlrPENTVkEAAAAi/chika-dance.gif') no-repeat center;
 	z-index: 999;
 }
   
@@ -33,6 +33,7 @@
   }
 
 
+
 .center{
     display: block;
     margin-left: auto;
@@ -45,7 +46,10 @@
 }
 .nav-link{
     font-size: 18px;
-
+    color: #000;
+}
+.nav-link:hover{
+    color: #000;
 }
 @media (min-width: 1200px) {
     .container{
@@ -195,6 +199,15 @@
     font-size: 20px;
     line-height: 25px;
 }
+
+.sec4-text h3{
+    color: #FFF6EE;
+    text-align: center;
+    padding: 0px 30px 30px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
 @media only screen and (min-width: 768px) {
 
     .about{
@@ -320,6 +333,15 @@
     .img-sec3{
         height: auto;
         width: 800px;
+        border-radius: 10%;
+    }
+
+    .sec4-text h3{
+        color: #FFF6EE;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
     }
 
 }
